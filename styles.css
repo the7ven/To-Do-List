@@ -132,4 +132,29 @@ ul li span:hover{
 }
 
 
+@media (max-width: 600px) {
+    .todo-app {
+        padding: 20px;
+    }
+
+    .todo-app h2 {
+        font-size: 24px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 16px;
+        padding: 10px 8px 10px 50px;
+    }
+}
+
+
 
